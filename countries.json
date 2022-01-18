@@ -1,0 +1,43 @@
+{
+        "key": "country",
+        "list": [{
+                "label": "INDIA",
+                "value": "IN",
+                "nested": {
+                    "key": "state",
+                    "list": [{
+                            "label": "New Delhi",
+                            "value": "DEL"
+                        },
+                        {
+                            "label": "Karnataka",
+                            "value": "KA",
+                            "nested": {
+                                "key": "city",
+                                "list": [{
+                                        "label": "Bengaluru",
+                                        "value": "BLR"
+                                    },
+                                    {
+                                        "label": "Mangalore",
+                                        "value": "ML"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "label": "France",
+                "value": "fr",
+                "nested": {
+                    "key": "state",
+                    "list": [{
+                        "label": "Ile-de-France",
+                        "value": "IDF"
+                    }]
+                }
+            }
+        ]
+    }
